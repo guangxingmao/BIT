@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/root_bg_defalut">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/logo_iv"
+            app:srcCompat="@mipmap/bottos_logo"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/slogon_tv"
+            android:text="Bottos Information transaction"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/wallet_create_btn"
+        style="@style/teal_blue_btn"
+        android:layout_above="@+id/wallet_import_btn"
+        android:layout_marginTop="32dp"
+        android:text="创建账号"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/wallet_import_btn"
+        style="@style/teal_blue_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="16dp"
+        android:text="导入账号"/>
+</RelativeLayout>

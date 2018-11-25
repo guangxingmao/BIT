@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c363f</color>
+    <color name="colorPrimaryDark">#2c363f</color>
+    <color name="colorAccent">#5ac8fa</color>
+    <color name="ripperColor">#33626262</color>
+
+    <color name="primary_colors_blue">#007aff</color>
+    <color name="primary_colors_teal_blue">#5ac8fa</color>
+    <color name="primary_colors_teal_blue_lighter">#adebff</color>
+    <color name="primary_colors_disable_blue">#995ac8fa</color>
+    <color name="primary_colors_green">#4cd964</color>
+    <color name="primary_colors_disable_green">#994cd964</color>
+    <color name="primary_colors_yellow">#ffcc00</color>
+    <color name="primary_colors_orange">#ff9500</color>
+    <color name="primary_colors_teal_orange">#fff9e6</color>
+    <color name="primary_colors_red">#ff3b30</color>
+    <color name="primary_colors_disable_red">#99ff3b30</color>
+
+    <color name="background_colors_white">#ffffff</color>
+    <color name="background_colors_default">#f7f7fa</color>
+    <color name="background_colors_dark">#2c363f</color>
+    <color name="background_colors_orange">#fff9e6</color>
+    <color name="background_colors_white_80">#80ffffff</color>
+    <color name="background_colors_white_50">#50ffffff</color>
+    <color name="background_colors_white_12">#12ffffff</color>
+    <color name="background_colors_alert">#FFF9E6</color>
+    <color name="background_colors_teal_dark">#394852</color>
+
+    <color name="text_colors_black">#000000</color>
+    <color name="text_colors_deep_grey">#767D83</color>
+    <color name="text_colors_grey">#8a8a8f</color>
+    <color name="text_colors_lightgrey">#c8c7cc</color>
+    <color name="text_colors_white">#ffffff</color>
+    <color name="text_colors_white_50">#7Fffffff</color>
+    <color name="text_colors_white_80">#80ffffff</color>
+</resources>

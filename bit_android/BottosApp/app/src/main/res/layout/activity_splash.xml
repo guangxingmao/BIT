@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/root_bg_defalut">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/splash_logo_iv"
+            style="@style/logo_iv"
+            app:srcCompat="@mipmap/bottos_logo"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/slogon_tv"
+            android:text="Bottos Information transaction"/>
+    </LinearLayout>
+</RelativeLayout>
